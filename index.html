@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NAHJ</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="images/logo/nahj_icon-removebg-preview.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        src="images/logo/Main_logopng-removebg-preview.png"
+        class="logo"
+        alt="Main Logo"
+      />
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#Subjects">Subjects</a>
+        <a href="#Calendar">Calendar</a>
+        <button class="lang">Arabic</button>
+      </nav>
+    </header>
+
+    <section class="main">
+      <div>
+        <h2>Welcome to <br /></h2>
+        <img
+          src="images/logo/Main_logopng-removebg-preview (1).png"
+          class="NAHJ-text"
+          alt="NAHJ Logo"
+        />
+        <h3>Your Site to Organize with Ease</h3>
+        <a href="#Subjects" class="btny">Get Started</a>
+      </div>
+    </section>
+
+    <!-- Subjects Section -->
+    <section class="cards" id="Subjects">
+      <h2 class="title">Subjects</h2>
+      <div class="content">
+        <div class="card">
+          <div class="icon">
+            <i class="fas fa-language"></i>
+          </div>
+          <div class="info">
+            <h3>Arabic</h3>
+            <p>
+              Learn to read, write, and speak Arabic with our expert instructors.
+              Explore the rich culture and history of the Arab world.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="fas fa-calculator"></i>
+          </div>
+          <div class="info">
+            <h3>Math</h3>
+            <p>
+              Develop problem-solving skills and logical thinking with our math
+              curriculum. From basic algebra to advanced calculus, we've got you
+              covered.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="info">
+            <h3>English</h3>
+            <p>
+              Improve your reading, writing, and communication skills with our
+              English language curriculum. Explore literature, grammar, and
+              vocabulary.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="fas fa-flask"></i>
+          </div>
+          <div class="info">
+            <h3>Science</h3>
+            <p>
+              Explore the wonders of the natural world with our science
+              curriculum. Learn about biology, chemistry, physics, and more.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="fas fa-globe-americas"></i>
+          </div>
+          <div class="info">
+            <h3>Social Studies</h3>
+            <p>
+              Discover the world's cultures, histories, and societies with our
+              social studies curriculum. Learn about geography, government, and
+              more.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calendar Section -->
+    <section class="calendar" id="Calendar">
+        <h2 class="title">Calendar</h2>  
+        <div>
+            <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css'>
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js'></script>
+
+<div id='calendar'></div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var calendarEl = document.getElementById('calendar');
+    var calendar = new FullCalendar.Calendar(calendarEl, {
+      initialView: 'dayGridMonth'
+    });
+    calendar.render();
+  });
+</script>
+        </div>
+  </body>
+</html>
