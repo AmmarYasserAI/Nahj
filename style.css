@@ -21,7 +21,7 @@ header {
 .logo {
     width: 13em;
     object-fit: cover;
-    animation: logoAnimation 2s ease-in-out;
+    animation: logoAnimation 1s ease-in-out;
 }
 
 @keyframes logoAnimation {
@@ -48,7 +48,7 @@ header {
     font-size: 1.1em;
     font-weight: 650;
     transition: 0.6s ease;
-    animation: navLinkAnimation 2s ease-in-out;
+    animation: navLinkAnimation 1s ease-in-out;
 }
 
 @keyframes navLinkAnimation {
@@ -78,7 +78,7 @@ header {
     cursor: pointer;
     border: none;
     transition: 0.6s ease;
-    animation: navLinkAnimation 2s ease-in-out;
+    animation: navLinkAnimation 1s ease-in-out;
 }
 
 .nav .lang:hover {
@@ -124,7 +124,7 @@ section {
 .main h2 {
     color: #fff;
     animation: textAnimation 2s ease-in-out;
-    transition: 0.6s ease;
+    transition: 0.3s ease;
 
 }
 
@@ -153,7 +153,7 @@ section {
     margin-top: 20px;
     margin-bottom: 20px;
     letter-spacing: 1px;
-    transition: 0.6s ease;
+    transition: 0.3s ease;
     animation: textAnimation 2s ease-in-out;
 }
 
@@ -218,9 +218,11 @@ section {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    text-decoration: none;
 }
 
 .card {
+    text-decoration: none;
     background-color: #fff;
     width: 21.25em;
     box-shadow: 0 5px 20px rgba(1, 1, 1, 25%);
@@ -228,6 +230,11 @@ section {
     padding: 25px;
     margin: 20px;
     transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.info{
+    text-decoration: none;
 }
 
 .card:hover {
@@ -249,4 +256,27 @@ section {
     font-size: 1.4em;
     font-weight: 700;
     margin: 10px;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: rgb(0, 0, 62); /* Light gray background */
+    padding: 10px; /* Add some padding */
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center; /* Center the text */
+    clear: both; /* Clear any floats */
+    transition: 0.6s ease;
+  }
+  
+  footer p {
+    margin: 0; /* Remove default margin */
+    color: #ffffff; /* Dark gray text */
+    transition: 0.3s ease;
+  }
+  
+  
+footer p:hover{
+    text-shadow: 0 0 10px #fff;
 }

@@ -23,7 +23,7 @@
         alt="Main Logo"
       />
       <nav class="nav">
-        <a href="#">Home</a>
+        <a href="index.html">Home</a>
         <a href="#Subjects">Subjects</a>
         <a href="#Calendar">Calendar</a>
         <button class="lang">Arabic</button>
@@ -38,7 +38,7 @@
           class="NAHJ-text"
           alt="NAHJ Logo"
         />
-        <h3>Your Site to Organize with Ease</h3>
+        <h3>Organize with ease, find your peace</h3>
         <a href="#Subjects" class="btny">Get Started</a>
       </div>
     </section>
@@ -47,90 +47,114 @@
     <section class="cards" id="Subjects">
       <h2 class="title">Subjects</h2>
       <div class="content">
-        <div class="card">
-          <div class="icon">
-            <i class="fas fa-language"></i>
+        <a href="Arabic.html" target="_blank" rel="noopener noreferrer">
+          <div class="card">
+            <div class="icon">
+              <i class="fas fa-language"></i>
+            </div>
+            <div class="info">
+              <h3>Arabic</h3>
+              <p>
+                Learn to read, write, and speak Arabic with our expert
+                instructors. Explore the rich culture and history of the Arab
+                world.
+              </p>
+            </div>
+          </div></a
+        >
+
+        <a href="Math.html" target="_blank" rel="noopener noreferrer">
+          <div class="card">
+            <div class="icon">
+              <i class="fas fa-calculator"></i>
+            </div>
+            <div class="info">
+              <h3>Math</h3>
+              <p>
+                Develop problem-solving skills and logical thinking with our
+                math curriculum. From basic algebra to advanced calculus, we've
+                got you covered.
+              </p>
+            </div>
           </div>
-          <div class="info">
-            <h3>Arabic</h3>
-            <p>
-              Learn to read, write, and speak Arabic with our expert instructors.
-              Explore the rich culture and history of the Arab world.
-            </p>
+        </a>
+
+        <a href="English.html" target="_blank" rel="noopener noreferrer">
+          <div class="card">
+            <div class="icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <div class="info">
+              <h3>English</h3>
+              <p>
+                Improve your reading, writing, and communication skills with our
+                English language curriculum. Explore literature, grammar, and
+                vocabulary.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="icon">
-            <i class="fas fa-calculator"></i>
+        </a>
+
+        <a href="Science.html" target="_blank" rel="noopener noreferrer">
+          <div class="card">
+            <div class="icon">
+              <i class="fas fa-flask"></i>
+            </div>
+            <div class="info">
+              <h3>Science</h3>
+              <p>
+                Explore the wonders of the natural world with our science
+                curriculum. Learn about biology, chemistry, physics, and more.
+              </p>
+            </div>
           </div>
-          <div class="info">
-            <h3>Math</h3>
-            <p>
-              Develop problem-solving skills and logical thinking with our math
-              curriculum. From basic algebra to advanced calculus, we've got you
-              covered.
-            </p>
+        </a>
+
+        <a href="Social Studies.html" target="_blank" rel="noopener noreferrer">
+          <div class="card">
+            <div class="icon">
+              <i class="fas fa-globe-americas"></i>
+            </div>
+            <div class="info">
+              <h3>Social Studies</h3>
+              <p>
+                Discover the world's cultures, histories, and societies with our
+                social studies curriculum. Learn about geography, government,
+                and more.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="card">
-          <div class="icon">
-            <i class="fas fa-book"></i>
-          </div>
-          <div class="info">
-            <h3>English</h3>
-            <p>
-              Improve your reading, writing, and communication skills with our
-              English language curriculum. Explore literature, grammar, and
-              vocabulary.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="icon">
-            <i class="fas fa-flask"></i>
-          </div>
-          <div class="info">
-            <h3>Science</h3>
-            <p>
-              Explore the wonders of the natural world with our science
-              curriculum. Learn about biology, chemistry, physics, and more.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="icon">
-            <i class="fas fa-globe-americas"></i>
-          </div>
-          <div class="info">
-            <h3>Social Studies</h3>
-            <p>
-              Discover the world's cultures, histories, and societies with our
-              social studies curriculum. Learn about geography, government, and
-              more.
-            </p>
-          </div>
-        </div>
+        </a>
       </div>
     </section>
 
     <!-- Calendar Section -->
     <section class="calendar" id="Calendar">
-        <h2 class="title">Calendar</h2>  
-        <div>
-            <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css'>
-<script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js'></script>
+      <h2 class="title">Calendar</h2>
+      <div>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.js"></script>
 
-<div id='calendar'></div>
+        <div id="calendar"></div>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var calendarEl = document.getElementById('calendar');
-    var calendar = new FullCalendar.Calendar(calendarEl, {
-      initialView: 'dayGridMonth'
-    });
-    calendar.render();
-  });
-</script>
-        </div>
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            var calendarEl = document.getElementById("calendar");
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+              initialView: "dayGridMonth",
+            });
+            calendar.render();
+          });
+        </script>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 Ammar Yasser. All rights reserved.</p>
+    </footer>
   </body>
 </html>
