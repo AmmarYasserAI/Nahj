@@ -86,7 +86,57 @@ header {
     transform: scale(1.1);
 }
 
-
+.hamburger {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #000000;
+    size: 2px;
+  }
+  
+  @media (max-width: 800px) {
+    .hamburger {
+      display: block;
+    }
+  
+    .hamburger.active .bar {
+        display: none;
+      }
+      
+      .hamburger.active::before {
+        content: "×";
+        font-size: 45px;
+        color: #7e0000;
+        cursor: pointer;
+      }  
+    .nav {
+      position: fixed;
+      left: -100%;
+      top: 70px;
+      gap: 0;
+      flex-direction: column;
+      background-color: #0800a1;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s ease;
+    }
+  
+    .nav a {
+      margin: 16px 0;
+    }
+  
+    .nav.active {
+      left: 0;
+    }
+  }
 /*---------Main Section-------*/
 /*---------Main Section-------*/
 /*---------Main Section-------*/
