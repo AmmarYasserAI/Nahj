@@ -90,6 +90,7 @@ header {
     position: absolute;
     right: 20px;
     top: 20px;
+    display: none;
   }  
   .bar {
     display: block;
@@ -132,10 +133,11 @@ header {
   
     .nav a {
       margin: 16px 0;
+      font-size: 1.5em;
     }
   
     .nav.active {
-        margin-top: 40px;
+        margin-top: 30px;
         left: 0;
 }
   }
