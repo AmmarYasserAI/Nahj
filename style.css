@@ -74,6 +74,7 @@ header {
     border-radius: 20px;
     font-size: 1.4em;
     padding: 12px 20px;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     cursor: pointer;
     border: none;
@@ -146,7 +147,16 @@ header {
     padding-left: 10px;
 }
 
-
+body[dir="rtl"] .nav a, body[dir="rtl"] .nav button {
+    margin-left: 20px;
+    margin-right: 0;
+  }
+  
+  body[dir="ltr"] .nav a, body[dir="ltr"] .nav button {
+    margin-right: 20px;
+    margin-left: 0;
+  }
+  
 /*---------Main Section-------*/
 /*---------Main Section-------*/
 /*---------Main Section-------*/

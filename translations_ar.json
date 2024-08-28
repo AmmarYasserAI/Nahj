@@ -16,7 +16,7 @@
       }
     },
     "main_section": {
-      "welcome_message": "مرحبًا بكم في",
+      "welcome_message": " اهلا بيك في",
       "slogan": "نظم وقتك بسهولة، واستمتع بالراحة"
     },
     "subjects_section": {
@@ -45,10 +45,10 @@
       ]
     },
     "calendar_section": {
-      "title": "التقويم"
+      "title": "النتيجة"
     },
     "footer": {
-      "copyright": "© 2024 عمار ياسر. جميع الحقوق محفوظة."
+      "copyright": " © 2024 عمار ياسر. جميع الحقوق محفوظة. "
     }
   }
   
