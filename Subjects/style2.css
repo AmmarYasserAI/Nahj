@@ -43,7 +43,7 @@ header {
     margin-left: auto;
 }
 
-.nav a, h4{
+.nav a{
     color: #0f7e76;
     text-decoration: none;
     padding: 10px 20px;
@@ -54,7 +54,7 @@ header {
 }
 
 .nav h4{
-    padding-right: 20em;
+    padding-right: 10em;
     color: black;
 }
 
@@ -90,59 +90,18 @@ header {
 }
 
 
-/* Footer Styles */
-
-footer {
-    background-color: rgb(0, 0, 62); /* Light gray background */
-    padding: 10px; /* Add some padding */
-    font-size: 1.2em;
-    font-weight: 600;
-    text-align: center; /* Center the text */
-    clear: both; /* Clear any floats */
-    transition: 0.6s ease;
-  }
-  
-  footer p {
-    margin: 0; /* Remove default margin */
-    color: #ffffff; /* Dark gray text */
-    transition: 0.3s ease;
-  }
-  
-  
-footer p:hover{
-    text-shadow: 0 0 10px #fff;
-}
 
 @media (max-width:1023px){
-    header{
-        padding: 12px 20px;
+    .logo{
+        width: 10em;
+    }
+    .nav h4{
+        font-size: 0.8em;
+        padding-right: 100px;
+        font-size: 0.8em;
     }
 
-    .navigation a{
-        padding-left: 10px;
-    }
-
-    .title{
-        font-size: 1.8em;
-    }
-
-    section{
-        padding: 80px 20px;
-    }
-
-    .main-content h2{
-        font-size: 1em;
-    }
-
-    .main-content h3{
-        font-size: 1.6em;
-    }
-
-    .content{
-        flex-direction: column;
-        align-items: center;
-    }
-
+    
 }
 
 @media (max-width:641px){

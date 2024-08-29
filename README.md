@@ -32,5 +32,6 @@ Embark on your journey to academic success with Nahj! Our platform is continuall
 - **JavaScript:** To bring interactivity and dynamic features.
 - **Netlify:** Hosting and deployment for reliable access.
 
-Happy studying! 📖✨
+# Happy studying! 📖✨
+
 

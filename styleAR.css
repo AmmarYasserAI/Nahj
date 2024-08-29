@@ -1,10 +1,45 @@
+@font-face {
+    font-family: 'Bukra';
+    src: url('fonts/29ltbukraregular.ttf') format('truetype'),
+         url('fonts/29ltbukraregular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bukra';
+    src: url('fonts/29ltbukrabold.ttf') format('truetype'),
+         url('fonts/29ltbukrabold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bukra';
+    src: url('fonts/29ltbukralight.ttf') format('truetype'),
+         url('fonts/29ltbukralight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bukra';
+    src: url('fonts/29ltbukrabolditalic.ttf') format('truetype'),
+         url('fonts/29ltbukrabolditalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+
+
 * {
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: 'Bukra', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-
 }
 
 header {
@@ -84,7 +119,8 @@ header {
 }
 
 .nav .lang:hover {
-    font-size: 1.1em;
+    font-size: 1.5em;
+    transform: scale(1.1);
 }
 
 /*-------Hamburger Menu-------*/
@@ -364,6 +400,7 @@ footer p:hover{
     text-shadow: 0 0 10px #fff;
 }
 
+
 .natega{
     display: flex;
     justify-content: center;
@@ -373,7 +410,6 @@ footer p:hover{
     margin-bottom: 20px;
 
 }
-
 
 /*--------Responsive Design-------*/
 @media (max-width:1023px){
