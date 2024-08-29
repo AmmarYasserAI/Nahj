@@ -216,6 +216,40 @@ footer {
     margin-bottom: 20px;
 }
 
+.photo-section {
+    text-align: center; /* Center align the content */
+    margin: 20px auto; /* Center the section horizontally */
+}
+
+.photo {
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width of the photo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the photo */
+}
+
+.btn-visit {
+    display: inline-flex;
+    align-items: center;
+    background-color: #0f7e76; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding */
+    font-size: 1em; /* Font size */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow */
+    transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+}
+
+.btn-visit:hover {
+    background-color: #0900b1; /* Background color on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.btn-visit i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
 /* Responsive Design */
 @media (max-width: 1023px) {
     .logo {
