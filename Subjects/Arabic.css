@@ -252,6 +252,7 @@ footer {
 }
 
 /* Responsive Design */
+/* Responsive Design */
 @media (max-width: 1023px) {
     .logo {
         width: 10em;
@@ -271,6 +272,15 @@ footer {
     }
     .header-content p {
         font-size: 1em;
+    }
+    .photo-section {
+        text-align: center; /* Center align the content */
+        margin: 0 auto; /* Center the section horizontally */
+    }
+    .photo {
+        width: 90%; /* Adjust width to fit smaller screens */
+        max-width: 500px; /* Maximum width of the photo */
+        height: auto; /* Maintain aspect ratio */
     }
 }
 
