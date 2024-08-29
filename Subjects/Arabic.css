@@ -267,13 +267,11 @@ footer {
         text-align: center; /* Center align the content */
         margin: 0 auto; /* Center the section horizontally */
     }
-    .photo {
-        width: 90%; /* Adjust width to fit smaller screens */
-        max-width: 500px; /* Maximum width of the photo */
-        height: auto; /* Maintain aspect ratio */
-    }
-}
-
+    @media (max-width: 641px) {
+        .photo {
+          background-image: url('Screenshot\ 2024-08-30\ 002953.png');
+        }
+      }
 @media (max-width: 300px) {
     body {
         font-size: 10px;
