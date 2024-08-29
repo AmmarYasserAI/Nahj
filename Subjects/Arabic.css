@@ -197,7 +197,7 @@ footer {
     justify-content: space-between;
 }
 
-.arabli h1{
+.arabli h1 {
     font-size: 2em;
     color: rgb(96, 0, 0);
     text-shadow: 1 1 10px #191919;
@@ -239,6 +239,7 @@ footer {
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow */
     transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+    margin: 20px 0; /* Margin for spacing */
 }
 
 .btn-visit:hover {
