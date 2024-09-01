@@ -14,3 +14,5 @@ navItems.forEach((item) => {
   });
 });
 
+
+console.log("سيف بقى بزبز مان 🥰")
